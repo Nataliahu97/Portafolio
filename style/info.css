@@ -45,9 +45,9 @@ header button {
     box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
    
 }
-.infomacion {
+.informacion {
     height: auto;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-flow: row wrap;
     font-family: 'Open Sans', sans-serif;
@@ -58,26 +58,125 @@ header button {
     height: auto;
     width: 49%;  
 }
-.foto {
-    width: 300px;
-    border-radius: 5px;
-    margin: 30px;  
+.personal_image .foto {
+    width: 200px;
+    margin-left: 30px;
+
 }
 
 .informacion h1 {
     text-align: center;
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
 }
-.informacion .about_me {
+.informacion .conoceme {
     height: auto;
     width: 49%;
 
 }
-
-.proyects {
-    height: auto;
+.conoceme h3 {
+    text-align: start;
     width: 100%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.proyects {
+    display: block;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #f3f3f3;
+}
+.proyects h1 {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif; 
 }
 
-.proyectos {
+.ejemplos {
     width: 300px;
+    background-color:  #8D55A9;
+    padding: 5px;
+    margin: 30px 50px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.contactame {
+    
+    width: 700px;
+    background-color: #f3f3f3;
+    text-align: left;
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 10px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    border: 1px solid #8D55A9;
+    transition: all .3s;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Otomanopee One', sans-serif;
+    
+   }
+   
+   button:hover {
+    border: 3px solid #D2AAE6;
+   }
+   
+   button:active {
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+   }
+
+footer {
+    position: sticky;
+    padding: 3px 30px;
+    border-radius: 10px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    max-height: 200px;
+    max-width: none;
+    margin: 10px;
+    background-color:#f3f3f3;
+
+    
+
+}
+.redes {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.redes a {
+    display: block;
+    justify-content: space-between;
+    border-radius: 100%;
+    background: white;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    
+}
+
+
+.redes .instagram { 
+    background-color: #D16BA5;}
+.redes .gmail  {background-color: #86A8E7;}
+    
+.redes .mensaje {background-color: #CEEFED ;}
+    
+.redes i {
+    font-size: 20px;
+    line-height: 35px;
+    
 }
