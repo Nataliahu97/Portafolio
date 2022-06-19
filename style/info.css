@@ -52,14 +52,14 @@ header button {
     flex-flow: row wrap;
     font-family: 'Open Sans', sans-serif;
     justify-content: space-evenly;
-    text-align: center;
+    margin: 30px;
 }
 .personal_image {
     height: auto;
     width: 49%;  
 }
 .foto {
-    
+    width: 300px;
     border-radius: 5px;
     margin: 30px;  
 }
@@ -67,8 +67,17 @@ header button {
 .informacion h1 {
     text-align: center;
 }
-.about_me {
+.informacion .about_me {
     height: auto;
     width: 49%;
-    vertical-align: text-top;
+
+}
+
+.proyects {
+    height: auto;
+    width: 100%;
+}
+
+.proyectos {
+    width: 300px;
 }
