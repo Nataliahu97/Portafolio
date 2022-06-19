@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Otomanopee+One&display=swap');
+
+body {
+    margin: auto;
+    padding: 0%;
+    background-image: linear-gradient(to right top, #dccdee, #d3baee, #cba6ee, #c492ec, #bd7dea);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header {
+
+    padding: 3px 3px;
+    border-radius: 10px;
+    display: block;
+    text-align: left;
+    max-height: 200px;
+    max-width: none;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: #f3f3f3;
+}
+
+header button {
+    color: #090909;
+    padding: 6px 15px;
+    font-size: 10px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    border: 1px solid #8D55A9;
+    transition: all .3s;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 3px 15px ;
+    
+   }
+   
+   button:hover {
+    border: 3px solid #D2AAE6;
+   }
+   
+   button:active {
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+   
+}
+.infomacion {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.personal_image {
+    height: auto;
+    width: 49%;  
+}
+.foto {
+    
+    border-radius: 5px;
+    margin: 30px;  
+}
+
+.informacion h1 {
+    text-align: center;
+}
+.about_me {
+    height: auto;
+    width: 49%;
+    vertical-align: text-top;
+}

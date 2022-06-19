@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Otomanopee+One&display=swap');
+
+
+
+body {
+    margin: auto;
+    padding: 0%;
+    background-image: linear-gradient(to right top, #dccdee, #d3baee, #cba6ee, #c492ec, #bd7dea);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.container {
+    width: 255px;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+}
+img{
+    width: 150px;
+    height: 150px; 
+    border-radius: 100%;
+    border: ridge 5px #8D55A9;
+    
+  }
+  .container p {
+    color: #9b9b9b;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  h1{
+    font-size: 25px;
+    color: #292525;
+  }
+
+  button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 10px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    border: 1px solid #8D55A9;
+    transition: all .3s;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Otomanopee One', sans-serif;
+    
+   }
+   
+   button:hover {
+    border: 3px solid #D2AAE6;
+   }
+   
+   button:active {
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2);
+   }
